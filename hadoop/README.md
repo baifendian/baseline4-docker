@@ -3,6 +3,7 @@
 ### 部署HDFS，Yarn
 1. Dockerfile:[2.6.0](https://github.com/sequenceiq/hadoop-docker/blob/master/Dockerfile)
 1. 启动
+
     ```
     docker run -d -p 50010:50010 -p 50020:50020 -p 50070:50070 \
     -p 50075:50075 -p 50090:50090 -p 8020:8020 -p 9000:9000 \
